@@ -1,0 +1,39 @@
+.searchblock__params {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.searchblock__params button:not(:last-child) {
+    margin-right: 28px;
+}
+.searchblock__params button {
+    padding: 11px 26px;
+}
+.searchblock__param {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+}
+.searchblock__paramActive {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+    border-radius: 5px;
+    background-color: var(--beige);
+}
+.searchblock__input {
+    position: relative;
+}
+.searchblock__input input {
+    border-radius: 3px;
+    width: 100%;
+    padding: 15px 0 15px 20px;
+}
+.searchblock__input button {
+    padding: 16px 49px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 3px;
+}

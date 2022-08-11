@@ -1,0 +1,24 @@
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 39px;
+    background-color: var(--beige);
+    margin-top: 50px;
+}
+.tabitem {
+    color: var(--black);
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--blue);
+}
+.tabitem__inactive {
+    color: var(--grey);
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+.tabitem__inactive:hover {
+    cursor: pointer;
+}

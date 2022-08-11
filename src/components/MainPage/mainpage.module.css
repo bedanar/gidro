@@ -1,0 +1,27 @@
+.main{
+    padding: 81px 0;
+}
+.section__main {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 36px;
+}
+.section__search {
+    margin-top: 77px;
+    margin-bottom: 80px;
+}
+.section__sale {
+    background-color: var(--blue);
+    padding: 33px 71px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 86px;
+    margin-bottom: 72px;
+}
+.section__sale span {
+    max-width: 308px;
+}
+.section__sale button {
+    padding: 12px 41px;
+}

@@ -1,0 +1,66 @@
+.productpage{
+    padding: 43px 0;
+}
+.productpage__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+.productpage__content img {
+    z-index: 1;
+}
+.productpage__content div:first-child div:not(:first-child) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productpage__sale span {
+    padding: 13px 26px;
+    background-color: var(--blue);
+    border-radius: 3px;
+}
+.productpage__pricePrevious {
+    font-size: 30px;
+    line-height: 36px;
+    opacity: 0.6;
+    color: var(--grey);
+    background-image: url('../../../assets/not.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.productpage__prices span:first-child {
+    margin-bottom: 6px;
+}
+.productpage__content button {
+    margin-top: 17px;
+}
+.productpage__controls {
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+}
+.productpage__controls svg:not(:last-child) {
+    margin-right: 10px;
+}
+.productpage__char {
+    margin-top: 51px;
+}
+.productpage__char p {
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--blue);
+}
+.characteirstics__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--grey);
+}
+.characteirstics__item{
+    margin-top: 15px;
+}
+.productpage__char button {
+    padding: 16px 53px;
+    border-radius: 3px;
+    margin-top: 45px;
+}

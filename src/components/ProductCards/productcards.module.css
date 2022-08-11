@@ -1,0 +1,17 @@
+.productcard__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.productcards__more  {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.productcards__more button {
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 16px 43px;
+}

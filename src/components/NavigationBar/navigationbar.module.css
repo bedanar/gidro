@@ -1,0 +1,20 @@
+.nav {
+    background-color: var(--beige);
+    padding-top: 15px;
+    display: flex;
+}
+.nav a:not(:last-child) {
+    margin-right: 60px;
+}
+.nav__link {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+    padding-bottom: 15px;
+    border-bottom: 3px solid transparent;
+}
+.nav__link:hover, .nav__link:focus {
+    /* font-weight: 600; */
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+}

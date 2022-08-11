@@ -1,0 +1,26 @@
+.categorycard {
+    background: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.categorycard__info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.categorycard:hover, .categorycard:focus span:first-of-type{
+    color: var(--blue);
+}
+.categorycard:hover, .categorycard:focus {
+    box-shadow: 3px 3px 20px rgba(50, 50, 50, 0.25);
+}
+.categorycard__more svg {
+    margin-left: 3px;
+}
+.categorycard__more {
+    margin-top: auto;
+}

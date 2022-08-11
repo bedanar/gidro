@@ -1,0 +1,21 @@
+.filterblock {
+    margin-top: 80px;
+}
+.filterblock__list {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.filterblock__item {
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--black);
+}
+.filterblock__item:not(:last-child) {
+    margin-right: 50px;
+}
+.filterblock__item:hover, .filterblock__item:focus {
+    border-bottom: 2px solid var(--blue);
+}
