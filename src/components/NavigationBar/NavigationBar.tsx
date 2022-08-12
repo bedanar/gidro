@@ -1,38 +1,39 @@
 import React from 'react';
 import styles from './navigationbar.module.css';
+import { Link } from 'react-router-dom'
 
 const navigationList = [
   {
     name: 'Квадроциклы',
-    route: '/'
+    route: '/products'
   },
   {
     name: 'Катера',
-    route: '/'
+    route: '/products'
   },
   {
     name: 'Гидроциклы',
-    route: '/'
+    route: '/products'
   },
   {
     name: 'Лодки',
-    route: '/'
+    route: '/products'
   },
   {
     name: 'Вездеходы',
-    route: '/'
+    route: '/products'
   },
   {
     name: 'Снегоходы',
-    route: '/'
+    route: '/products'
   },
   {
     name: 'Двигатели',
-    route: '/'
+    route: '/products'
   },
   {
     name: 'Запчасти',
-    route: '/'
+    route: '/products'
   },
 ]
 
@@ -42,7 +43,7 @@ export function NavigationBar() {
       {
         navigationList.map((n, index) => {
           return (
-            <a className={styles.nav__link} href={n.route} key={index}>{n.name}</a>
+            <Link className={styles.nav__link} to={n.route} key={index}>{n.name}</Link>
           )
         })
       }
